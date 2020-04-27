@@ -205,7 +205,7 @@ header {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .hero-text-box {
@@ -237,6 +237,7 @@ header {
   float: right;
   list-style: none;
   margin-top: 50px;
+  z-index: 9998;
 }
 
 .main-nav li {
