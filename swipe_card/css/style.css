@@ -1,0 +1,33 @@
+.carousel-item {
+	height: 100vh;
+	min-height: 350px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.cards {
+	display: flex;
+	/* flex-wrap: wrap; */
+}
+
+.card {
+	background: #fff;
+	border-radius: 1rem;
+	padding: 2rem;
+	margin: 0.2rem;
+	box-shadow: 4px 4px 15px 12px rgb(56, 56, 56);
+	transition: 0.5s;
+}
+
+.card:hover,
+.card:focus-within {
+	transform: scale(1.2);
+}
+
+.card:hover ~ .card,
+.card:focus-within ~ .card {
+	transform: translate(1rem);
+}
